@@ -12,9 +12,6 @@ grun Student_ID start -gui
 
 
 antlr4 ab1.g4
-
 javac ab1*.java
-
 set classpath=.;%CLASSPATH%
-
 grun ab1 start -gui
